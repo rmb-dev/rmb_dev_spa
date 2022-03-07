@@ -15,7 +15,7 @@
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);
     --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
     --title-color: hsl(var(--hue-color), 8%, 15%);
-    --text-color: hsl(var(--hue-color), 8%, 45%);
+    --text-color: hsl(var(--hue-color), 8%, 25%);
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
     --input-color: hsl(var(--hue-color), 70%, 96%);
     --body-color: hsl(var(--hue-color), 60%, 99%);
@@ -27,13 +27,13 @@
     --body-font: 'Exo', sans-serif;
 
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px */
-    --big-font-size: 1.5rem;
-    --h1-font-size: 1.5rem;
-    --h2-font-size: 1.25rem;
-    --h3-font-size: 1.125rem;
-    --normal-font-size: .938rem;
-    --small-font-size: .813rem;
-    --smaller-font-size: .75rem;
+    --big-font-size: 1.8rem;
+    --h1-font-size: 1.8rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .850rem;
+    --smaller-font-size: .750rem;
 
     /* Font weight */
     --font-medium: 500;
@@ -1283,4 +1283,16 @@ img{
         grid-template-columns: repeat(2, 1fr);
     }
 
+}
+
+/* Particles */
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-image: linear-gradient(#3a5461, #e3e3e4); */
+    background-size: cover;
+    z-index: -1;
 }
