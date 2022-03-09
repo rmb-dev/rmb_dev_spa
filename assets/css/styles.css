@@ -287,7 +287,7 @@ img{
 }
 
 .home__social-icon{
-    font-size: 1.25rem;
+    font-size: 1.8rem;
     color: var(--first-color);
 }
 
@@ -931,6 +931,8 @@ img{
 
 .footer__links{
     display: flex;
+    justify-content: center;
+    /* justify-self: center; */
     flex-direction: column;
     row-gap: 1.5rem;
 }
@@ -940,7 +942,7 @@ img{
 }
 
 .footer__social{
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     margin-right: var(--mb-1-5);
 }
 
@@ -1229,12 +1231,12 @@ img{
     .footer__bg{
         padding: 3rem 0 3.5rem;
     }
-    .footer_-links{
+    .footer__links{
         flex-direction: row;
         column-gap: 2rem;
     }
     .footer__socials{
-        justify-self: flex-end;
+        justify-self: center;
     }
     .footer__copy{
         margin-top: 4.5rem;
