@@ -34,6 +34,11 @@
                             </a>
                         </li>
                         <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> About Me
+                        </a>
+                        </li>
+                        <li class="nav__item">
                             <a href="#skills" class="nav__link">
                             <i class="uil uil-file-alt nav__icon"></i> Skills
                             </a>
@@ -43,11 +48,6 @@
                             <i class="uil uil-briefcase-alt nav__icon"></i> Services
                             </a>
                         </li>                        
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">
-                            <i class="uil uil-user nav__icon"></i> About Me
-                        </a>
-                        </li>
                         <!-- <li class="nav__item">
                             <a href="mailto:rbyrchenko@gmail.com" class="nav__link">
                             <i class="uil uil-envelope nav__icon"></i> Contact Me
@@ -224,6 +224,45 @@
             <div class="swiper-pagination"></div>
         </div>
       </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My introduction</span>
+
+        <div class="about__container container grid">
+        <img src="assets/img/about.png" alt="" class="about__img">
+
+            <div class="about__data">
+                <p class="about__description">Mostly self-taught Frontend web developer and UI designer. 
+                    Developing my skills in web technologies and Ux/Ui design, strive to deliver only quality work.</p>
+                
+                <div class="about__info">                
+                    <div>
+                        <!-- <span class="about__info-title">02+</span>
+                        <span class="about__info-name">Years <br> experience</span> -->
+                    </div>
+
+                    <div class="about__buttons">
+                        <a download="" href="assets/files/" class="button button--flex">
+                        Download CV <i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+
+                    <div>
+                        <!-- <span class="about__info-title">8+</span>
+                        <span class="about__info-name">Completed <br> projects</span> -->
+                    </div>
+
+                    <!-- <div>
+                        <span class="about__info-title">01+</span>
+                        <span class="about__info-name">Companies <br> worked</span>
+                    </div>                 -->
+                </div>
+                
+            </div>
+        </div>
+    </section>
 
     <!-- SKILLS -->
     <section class="skills section" id="skills">
@@ -491,46 +530,7 @@
             </div>
         </div>
     </section>
-
-    <!-- ABOUT -->
-    <section class="about section" id="about">
-        <h2 class="section__title">About Me</h2>
-        <span class="section__subtitle">My introduction</span>
-
-        <div class="about__container container grid">
-        <img src="assets/img/about.png" alt="" class="about__img">
-
-            <div class="about__data">
-                <p class="about__description">Mostly self-taught Frontend web developer and UI designer. 
-                    Developing my skills in web technologies and Ux/Ui design, strive to deliver only quality work.</p>
-                
-                <div class="about__info">                
-                    <div>
-                        <span class="about__info-title">02+</span>
-                        <span class="about__info-name">Years <br> experience</span>
-                    </div>
-
-                    <div class="about__buttons">
-                        <a download="" href="assets/files/" class="button button--flex">
-                        Download CV <i class="uil uil-download-alt button__icon"></i>
-                        </a>
-                    </div>
-
-                    <div>
-                        <span class="about__info-title">8+</span>
-                        <span class="about__info-name">Completed <br> projects</span>
-                    </div>
-
-                    <!-- <div>
-                        <span class="about__info-title">01+</span>
-                        <span class="about__info-name">Companies <br> worked</span>
-                    </div> -->                
-                </div>
-                
-            </div>
-        </div>
-    </section>
-
+    
     <!-- QUALIFICATION -->
     <!-- <section class="qualification section"> 
         <h2 class="section__title">Qualification</h2>
@@ -549,11 +549,10 @@
                 </div>
             </div>
         
-            <div class="qualification__sections"> -->
-                <!-- QUALIFICATION CONTENT 1 -->
-                <!-- <div class="qualification__content qualification__active" data-content id="education"> -->
-                    <!-- QUALIFICATION #1 -->
-                    <!-- <div class="qualification__data">
+            <div class="qualification__sections">
+                <div class="qualification__content qualification__active" data-content id="education">
+                    
+                    <div class="qualification__data">
                         <div>
                             <h3 class="qualification__title">UX Design, Intermediate Course</h3>
                             <span class="qualification__subtitle">Juno College of Technology</span>
@@ -567,9 +566,9 @@
                             <span class="qualification__rounder"></span>
                             <span class="qualification__line"></span>
                         </div>                
-                    </div> -->
-                    <!-- QUALIFICATION #2 -->
-                    <!-- <div class="qualification__data">
+                    </div>
+                    
+                    <div class="qualification__data">
                         <div></div>
 
                         <div>
@@ -585,10 +584,10 @@
                                 2020
                             </div>
                         </div>
-                    </div> -->
+                    </div>
 
-                    <!-- QUALIFICATION #3 -->
-                    <!-- <div class="qualification__data">
+                    
+                    <div class="qualification__data">
                         <div>
                             <h3 class="qualification__title">Wed Development, Fundamentals and Advanced Course</h3>
                             <span class="qualification__subtitle">Juno College of Technology</span>
@@ -600,35 +599,14 @@
                 
                         <div>
                             <span class="qualification__rounder"></span>
-                            <span class="qualification__line"></span>
-                        </div>                
-                    </div> -->
-
-                    <!-- QUALIFICATION #4 -->
-                    <!-- <div class="qualification__data">
-                        <div></div>
-
-                        <div>
-                            <span class="qualification__rounder"></span> -->
-                            <!-- <span class="qualification__line"></span> -->
-                        <!-- </div>
-
-                        <div>
-                            <h3 class="qualification__title">Intro to Web Development and Full-Stack Course</h3>
-                            <span class="qualification__subtitle">Lighthouse Labs</span>
-                            <div class="qualification__calendar">
-                                <i class="uil uil-calender"></i>
-                                2017
-                            </div>
                         </div>                
                     </div>
 
-                </div> -->
+                </div>
 
-                <!-- QUALIFICATION CONTENT 2-->
-                <!-- <div class="qualification__content" data-content id="work"> -->
-                    <!-- QUALIFICATION #1 -->
-                    <!-- <div class="qualification__data">
+                <div class="qualification__content" data-content id="work">
+                    
+                    <div class="qualification__data">
                         <div>
                             <h3 class="qualification__title">Frontend developer</h3>
                             <span class="qualification__subtitle">Freelance - Toronto</span>
@@ -639,47 +617,11 @@
                         </div>
                 
                         <div>
-                            <span class="qualification__rounder"></span> -->
-                            <!-- <span class="qualification__line"></span> -->
-                        <!-- </div>                
-                    </div> -->
-
-                    <!-- QUALIFICATION #2 -->
-                    <!-- <div class="qualification__data">
-                        <div></div>
-
-                        <div>
                             <span class="qualification__rounder"></span>
-                            <span class="qualification__line"></span>
-                        </div>
-
-                        <div>
-                            <h3 class="qualification__title">UX designer</h3>
-                            <span class="qualification__subtitle">Toronto</span>
-                            <div class="qualification__calendar">
-                                <i class="uil uil-calender"></i>
-                                2021
-                            </div>
-                        </div>
-                    </div> -->
-
-                    <!-- QUALIFICATION #3 -->
-                    <!-- <div class="qualification__data">
-                        <div>
-                            <h3 class="qualification__title">UI designer</h3>
-                            <span class="qualification__subtitle">Toronto</span>
-                            <div class="qualification__calendar">
-                                <i class="uil uil-calender"></i>
-                                2022
-                            </div>
-                        </div>
-                
-                        <div>
-                            <span class="qualification__rounder"></span>
-                            <span class="qualification__line"></span>
                         </div>                
-                    </div> -->
-                <!-- </div>
+                    </div>                    
+                    
+                </div>
             </div>
         </div>
     </section> -->
