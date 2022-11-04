@@ -1,2 +1,2 @@
-# rmb_dev.github.io
+# rmb-dev.github.io
 Web Developer profile website
